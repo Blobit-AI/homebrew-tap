@@ -5,19 +5,19 @@ class Blobit < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/3dMVP/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-aarch64-apple-darwin.zip"
-      sha256 "4f3652be393bd7dc35d84414d5b7efdbeb983897327bf95004a6d16c35bbc6ec"
+      url "https://github.com/Blobit-AI/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-aarch64-apple-darwin.zip"
+      sha256 "1202811bddfdf0b907d8588d5ab1d521ea2ef265f84477c635f7aaf30126dc4c"
     else
-      url "https://github.com/3dMVP/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-x86_64-apple-darwin.zip"
-      sha256 "557c8155306cab82c9888647f72c3a930badc9e594bb60a4b24f7b1adcee307e"
+      url "https://github.com/Blobit-AI/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-x86_64-apple-darwin.zip"
+      sha256 "a7cea244e75458da9c4bc5559fe04ee353319ae7fa35cf7fd124e65afff173b2"
     end
   end
 
   on_linux do
     depends_on "dbus"
 
-    url "https://github.com/3dMVP/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "4c5e0275545507803ff27629507cb1bcee2541973932f34ae11bdc170142619c"
+    url "https://github.com/Blobit-AI/homebrew-tap/releases/download/v0.1.5/blobit-v0.1.5-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "51431a2f2d1a392e43fb823084618574190ce684f422f6da690e5f11397173f3"
   end
 
   def install
