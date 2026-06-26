@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-repo="${BLOBIT_REPO:-3dMVP/homebrew-tap}"
+repo="${BLOBIT_REPO:-Blobit-AI/homebrew-tap}"
 version="${BLOBIT_VERSION:-latest}"
 install_dir="${BLOBIT_INSTALL_DIR:-$HOME/.local/bin}"
 
